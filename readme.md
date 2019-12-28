@@ -1,4 +1,6 @@
 ## Express react ssr
 
--   [x] -   es6 supprt
--   [x]
+-   [x] - Es6 supprt
+-   [ ] - Eslint
+-   [x] - Mongodb integration
+-   [x] - React with ssr Supported
