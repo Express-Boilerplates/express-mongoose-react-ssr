@@ -1,0 +1,24 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+
+## envs
+env/.prod.env
+env/.dev.env
+
+#dist
+build
+public/dist
+
+npm-debug.log
+yarn-error.log
+yarn.lock
+.cache
+deployment.yml
+service.yml
+ingress.yml
+key.json

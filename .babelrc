@@ -1,0 +1,30 @@
+{
+    "plugins": [
+        "@babel/plugin-proposal-optional-chaining",
+        "@babel/plugin-proposal-nullish-coalescing-operator",
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "$app": "./src/app.js",
+                    "$api": "./src/api",
+                    "$utils": "./src/utils",
+                    "$formatters": "./src/utils/formatters",
+                    "$factory": "./src/api/factory.js",
+                    "$middlewares": "./src/middlewares"
+                }
+            }
+        ]
+    ],
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "11"
+                }
+            }
+        ],
+        "@babel/preset-react"
+    ]
+}
